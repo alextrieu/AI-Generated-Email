@@ -1,0 +1,95 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-paper-plane {
+  font-size: 2rem;
+  color: lightskyblue;
+}
+
+/* Form */
+
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-wrapper input {
+  height: 38px;
+  width: 388px;
+  margin-bottom: 20px;
+  padding: 0px 0px 0px 6px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #BDBDBD;
+}
+
+form {
+  border: 1px solid #BDBDBD;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 38px;
+  width: 388px;
+  outline: none;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid rgb(68, 166, 228);
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.output {
+  border: 1px solid #BDBDBD;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.output h3 {
+  text-align: center;
+}
+
+.output p {
+  line-height: 1.5rem;
+}
+
+.output p:first-of-type {
+  display: block;
+}
+
+.output p:last-of-type {
+  display: block;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) { 
+  .App h2 {
+    font-size: 1.25rem;
+  }
+  .output {
+    width: 80%;
+    padding: 0px 35px 10px 35px;
+  }
+}
