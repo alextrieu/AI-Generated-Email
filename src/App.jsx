@@ -31,7 +31,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-        `Bearer ${import.meta.env.VITE_API_KEY}`
+        `Bearer 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`
       }
     })
       .then((res) => {
