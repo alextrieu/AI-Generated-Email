@@ -31,7 +31,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-        "Bearer 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"
+        "Bearer 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"
       }
     })
       .then((res) => {
