@@ -31,7 +31,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-        "Bearer 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"
+        "Bearer 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"
       }
     })
       .then((res) => {
@@ -56,7 +56,7 @@ function App() {
       <i className="fa-regular fa-paper-plane"></i>
       <h2>Leverage the power of AI to create the ideal email pitch</h2>
       <Form getRes={getRes} />
-      <>
+      <div className='output-container'>
         {loading ? (
           <span>loading...</span>
         ) : (
@@ -66,7 +66,7 @@ function App() {
             <p>{v.text}</p>
           </div>)
         )}
-      </>
+      </div>
     </div>
   )
 }
