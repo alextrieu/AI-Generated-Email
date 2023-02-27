@@ -1,4 +1,4 @@
-<h1 align="center">AI Outreach ⛅️</h1>
+<h1 align="center">AI Outreach 🧠</h1>
 
 
 AI Outreach is an AI-powered app that generates customized cold email pitches to help businesses and professionals improve their outreach efforts.
@@ -43,7 +43,7 @@ Here is a screenshot of the desktop version of our application:
 
 Here is a screenshot of the mobile version of our application:
 
-<img src="https://imgur.com/4mzJUFI.ong" alt="Alt text" width="50%">
+<img src="https://imgur.com/4mzJUFI.png" alt="Alt text" width="50%">
 
 
 ## Installation & Usage 
